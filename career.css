@@ -74,7 +74,7 @@ section.corps {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 15rem;
+	gap: 10rem;
 }
 
 a.wellcum {
@@ -85,9 +85,36 @@ a.wellcum {
 	border-radius: 2rem;
 }
 
-/* Début intro */
+div.boutons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 3rem;
+}
+
+div.boutons a {
+	background-color: rgb(204, 231, 255);
+	color: black;
+	padding: 1rem;
+	border-bottom: 5px solid lightgray;
+	border-radius: 50px;
+	text-decoration: none;
+}
 
 div.intro {
+	font-size: 1.5rem;
+	
+	background: white;
+	padding: 1rem;
+	border-bottom: 0.5rem solid lightgray;
+	border-radius: 2rem;
+}
+
+a.grand {
+	font-size: 3rem;
+}
+
+div.activity1 {
 	background: white;
 	padding: 1rem;
 	border-bottom: 0.5rem solid lightgray;
@@ -97,70 +124,41 @@ div.intro {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	gap: 2rem;
+	gap: 3rem;
 }
 
-div.intro div {
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	gap: 2rem;
+div.activity1 img {
+	width: 15rem;
+	height: 15rem;
+	border-radius: 2.5rem;
+	/*border-bottom: 10px solid lightgray;*/
 }
 
-div.intro div div {
+div.activity2 {
+	background: white;
+	padding: 1rem;
+	border-bottom: 0.5rem solid lightgray;
+	border-radius: 2rem;
+	width: 59rem;
+	
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	gap: 3rem;
 }
 
-div.intro div div a {
-	background-color: rgb(204, 231, 255);
-	color: black;
-	padding: 1rem;
-	border-bottom: 5px solid lightgray;
-	border-radius: 50px;
-	text-decoration: none;
+div.activity2 div {
+	text-align: end;
 }
 
-a.grand {
-	font-size: 4rem;
-}
-
-div.intro img {
-	width: 20rem;
-	height: 20rem;
-	border-radius: 5rem;
+div.activity2 img {
+	width: 15rem;
+	height: 15rem;
+	border-radius: 2.5rem;
 	/*border-bottom: 10px solid lightgray;*/
 }
 
-/* Fin intro */
 
-
-/* Début Vidéo */
-div.video {
-	background: white;
-	padding: 5rem;
-	border-bottom: 0.5rem solid lightgray;
-	border-radius: 2rem;
-	
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-evenly;
-	gap: 2rem;
-	
-	width: 25rem;
-}
-
-div.video a {
-	font-size: 2rem;
-	font-weight: bold;
-	text-decoration: none;
-	text-align: justify;
-}
-
-/* Fin Vidéo */
 
 
 /* Début contacts */
